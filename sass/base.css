@@ -105,51 +105,37 @@ body {
     float: left; }
 
 /* line 42, ../sass/modules/_global-styles.scss */
-.container {
-  position: absolute;
-  width: 100%;
-  heigh: 100%;
-  text-align: center;
-  top: 40%;
-  left: 0;
-  margin: 0 auto; }
-  /* line 52, ../sass/modules/_global-styles.scss */
-  .container a {
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    color: #000;
-    text-decoration: none;
-    font-size: 20px;
-    overflow: hidden;
-    top: 5px; }
+.video-post {
+  display: inline-table;
+  width: 49%;
+  padding: .5em; }
 
-/* line 66, ../sass/modules/_global-styles.scss */
+/* line 48, ../sass/modules/_global-styles.scss */
 .button_container {
-  position: fixed;
-  top: 7%;
-  left: 8%;
+  position: relative;
+  top: 0%;
   height: 27px;
   width: 35px;
   cursor: pointer;
   z-index: 100;
-  transition: opacity .25s ease; }
-  /* line 77, ../sass/modules/_global-styles.scss */
+  transition: opacity .25s ease;
+  margin: 2em 0; }
+  /* line 59, ../sass/modules/_global-styles.scss */
   .button_container:hover {
     opacity: .7; }
-  /* line 82, ../sass/modules/_global-styles.scss */
+  /* line 64, ../sass/modules/_global-styles.scss */
   .button_container.active .top {
     transform: translateY(10px) translateX(0) rotate(45deg);
     background: #FFF; }
-  /* line 86, ../sass/modules/_global-styles.scss */
+  /* line 68, ../sass/modules/_global-styles.scss */
   .button_container.active .middle {
     opacity: 0;
     background: #FFF; }
-  /* line 91, ../sass/modules/_global-styles.scss */
+  /* line 73, ../sass/modules/_global-styles.scss */
   .button_container.active .bottom {
     transform: translateY(-10px) translateX(0) rotate(-45deg);
     background: #FFF; }
-  /* line 97, ../sass/modules/_global-styles.scss */
+  /* line 79, ../sass/modules/_global-styles.scss */
   .button_container span {
     background: white;
     border: none;
@@ -160,14 +146,14 @@ body {
     left: 0;
     transition: all .35s ease;
     cursor: pointer; }
-    /* line 108, ../sass/modules/_global-styles.scss */
+    /* line 90, ../sass/modules/_global-styles.scss */
     .button_container span:nth-of-type(2) {
       top: 10px; }
-    /* line 112, ../sass/modules/_global-styles.scss */
+    /* line 94, ../sass/modules/_global-styles.scss */
     .button_container span:nth-of-type(3) {
       top: 20px; }
 
-/* line 118, ../sass/modules/_global-styles.scss */
+/* line 100, ../sass/modules/_global-styles.scss */
 .overlay {
   position: fixed;
   background: #000;
@@ -180,32 +166,32 @@ body {
   transition: opacity .35s, visibility .35s, height .35s;
   overflow: hidden;
   z-index: 10; }
-  /* line 131, ../sass/modules/_global-styles.scss */
+  /* line 113, ../sass/modules/_global-styles.scss */
   .overlay.open {
     opacity: .9;
     visibility: visible;
     height: 100%; }
-    /* line 136, ../sass/modules/_global-styles.scss */
+    /* line 118, ../sass/modules/_global-styles.scss */
     .overlay.open li {
       animation: fadeInRight .5s ease forwards;
       animation-delay: .35s; }
-      /* line 140, ../sass/modules/_global-styles.scss */
+      /* line 122, ../sass/modules/_global-styles.scss */
       .overlay.open li:nth-of-type(2) {
         animation-delay: .4s; }
-      /* line 143, ../sass/modules/_global-styles.scss */
+      /* line 125, ../sass/modules/_global-styles.scss */
       .overlay.open li:nth-of-type(3) {
         animation-delay: .45s; }
-      /* line 146, ../sass/modules/_global-styles.scss */
+      /* line 128, ../sass/modules/_global-styles.scss */
       .overlay.open li:nth-of-type(4) {
         animation-delay: .50s; }
-  /* line 151, ../sass/modules/_global-styles.scss */
+  /* line 133, ../sass/modules/_global-styles.scss */
   .overlay nav {
     position: relative;
     height: 70%;
     top: 50%;
     transform: translateY(-50%);
     text-align: center; }
-  /* line 158, ../sass/modules/_global-styles.scss */
+  /* line 140, ../sass/modules/_global-styles.scss */
   .overlay ul {
     list-style: none;
     padding: 0;
@@ -213,7 +199,7 @@ body {
     display: inline-block;
     position: relative;
     height: 100%; }
-    /* line 166, ../sass/modules/_global-styles.scss */
+    /* line 148, ../sass/modules/_global-styles.scss */
     .overlay ul li {
       display: block;
       height: 25%;
@@ -221,13 +207,13 @@ body {
       min-height: 50px;
       position: relative;
       opacity: 0; }
-      /* line 174, ../sass/modules/_global-styles.scss */
+      /* line 156, ../sass/modules/_global-styles.scss */
       .overlay ul li a {
         display: block;
         position: relative;
         color: #FFF;
         text-decoration: none; }
-        /* line 180, ../sass/modules/_global-styles.scss */
+        /* line 162, ../sass/modules/_global-styles.scss */
         .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
           width: 100%; }
 
@@ -239,18 +225,18 @@ body {
     opacity: 1;
     left: 0; } }
 @media screen and (max-width: 850px) {
-  /* line 209, ../sass/modules/_global-styles.scss */
+  /* line 191, ../sass/modules/_global-styles.scss */
   .mission {
     width: 220%; }
-    /* line 212, ../sass/modules/_global-styles.scss */
+    /* line 194, ../sass/modules/_global-styles.scss */
     .mission img {
       height: 147px; }
 
-  /* line 217, ../sass/modules/_global-styles.scss */
+  /* line 199, ../sass/modules/_global-styles.scss */
   p {
     font-size: 1em; } }
 @media screen and (max-width: 700px) {
-  /* line 225, ../sass/modules/_global-styles.scss */
+  /* line 207, ../sass/modules/_global-styles.scss */
   .mission {
     max-width: 30.875em;
     margin-left: auto;
@@ -260,7 +246,7 @@ body {
     position: relative;
     padding: 0 1.55555em;
     overflow: hidden; }
-    /* line 235, ../sass/modules/_global-styles.scss */
+    /* line 217, ../sass/modules/_global-styles.scss */
     .mission img {
       height: auto;
       max-width: 100%; } }
@@ -613,7 +599,7 @@ body {
   max-width: 64.875em;
   margin-left: auto;
   margin-right: auto;
-  margin: 0 auto;
+  margin: 0 auto 8em auto;
   height: 100%;
   position: relative;
   padding: 0 3.55555em;
@@ -770,18 +756,19 @@ h2.article-title {
 
 /* line 193, ../sass/base.scss */
 p {
+  font-size: 1.1em;
   line-height: 2.2em;
   margin: 1em 0;
   font-weight: 300;
   padding: 3em;
   width: 59em; }
 
-/* line 201, ../sass/base.scss */
+/* line 202, ../sass/base.scss */
 img {
   max-width: 100%;
   vertical-align: middle; }
 
-/* line 206, ../sass/base.scss */
+/* line 207, ../sass/base.scss */
 figure img {
   max-width: 100%;
   animation: fadein 1s;
@@ -792,7 +779,7 @@ figure img {
   -o-animation: fadein 1s;
   /* Opera */ }
 
-/* line 213, ../sass/base.scss */
+/* line 214, ../sass/base.scss */
 a:hover {
   color: #ccc;
   -moz-transition: all .5s ease-out;
@@ -800,18 +787,18 @@ a:hover {
   -webkit-transition: all .5s ease-out;
   transition: all .5s ease-out; }
 
-/* line 223, ../sass/base.scss */
+/* line 224, ../sass/base.scss */
 .index-nav {
   margin: 0 auto 1em auto;
   max-width: 100%; }
-  /* line 227, ../sass/base.scss */
+  /* line 228, ../sass/base.scss */
   .index-nav li.next {
     margin: 0.5em auto;
     text-align: right;
     top: 40%;
     line-height: 2em;
     padding: 1em 0 0; }
-  /* line 236, ../sass/base.scss */
+  /* line 237, ../sass/base.scss */
   .index-nav li.previous {
     margin: 0.5em auto;
     text-align: left;
@@ -820,16 +807,16 @@ a:hover {
     padding: 1em 0 0; }
 
 @media screen and (max-width: 700px) {
-  /* line 253, ../sass/base.scss */
+  /* line 254, ../sass/base.scss */
   .container {
     padding: 0 1.55555em; }
 
-  /* line 259, ../sass/base.scss */
+  /* line 260, ../sass/base.scss */
   h2.article-title {
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center; }
 
-  /* line 266, ../sass/base.scss */
+  /* line 267, ../sass/base.scss */
   li.next {
     float: none; } }
