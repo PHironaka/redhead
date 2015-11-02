@@ -2,16 +2,10 @@ var videos = [
 
 
     {
-      title: "Jimmy Napes",
-      url: "/videos/Jimmy-Napes",
-      slug: "Jimmy-Napes",
-      youtube: "jsRJPJrOnVo"
+      title: "Larry David",
+      url: "/videos/Seinfeld",
+      slug: "Seinfeld",
+      youtube: "RVTP8xZCGVw"
     },
 
-		{
-      title: "White Noise",
-      url: "/videos/white-noise",
-      slug: "white-noise",
-      vimeo: "60021080"
-    },
 ];
