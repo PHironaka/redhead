@@ -619,7 +619,7 @@ body {
   min-height: 100%;
   width: auto;
   height: auto;
-  opacity: .6; }
+  opacity: .4; }
 
 /* line 67, ../sass/base.scss */
 ul.post {
@@ -634,13 +634,15 @@ ul.post {
     display: table; }
   /* line 71, ../sass/base.scss */
   ul.post li {
-    margin: 0; }
-    /* line 73, ../sass/base.scss */
+    margin: 0;
+    display: inline; }
+    /* line 74, ../sass/base.scss */
     ul.post li a {
       color: white;
-      font-size: 43px;
-      line-height: 48px; }
-    /* line 79, ../sass/base.scss */
+      font-size: 4em;
+      line-height: 1.2em;
+      font-family: 'Alegreya',serif; }
+    /* line 81, ../sass/base.scss */
     ul.post li a:hover {
       text-decoration: underline;
       -moz-transition: all .5s ease-out;
@@ -648,7 +650,7 @@ ul.post {
       -webkit-transition: all .5s ease-out;
       transition: all 0.5s ease-out; }
 
-/* line 88, ../sass/base.scss */
+/* line 90, ../sass/base.scss */
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -658,7 +660,7 @@ ul.post {
   padding: 0 2.55555em;
   overflow: hidden; }
 
-/* line 100, ../sass/base.scss */
+/* line 102, ../sass/base.scss */
 .enter {
   font-size: 3em;
   position: absolute;
@@ -668,12 +670,12 @@ ul.post {
   color: white;
   z-index: 10; }
 
-/* line 110, ../sass/base.scss */
+/* line 112, ../sass/base.scss */
 h2 {
   font-size: 2.5em;
   margin: 2em 0; }
 
-/* line 115, ../sass/base.scss */
+/* line 117, ../sass/base.scss */
 h2.page-title {
   font-size: 1.7rem;
   font-weight: 700;
@@ -683,33 +685,33 @@ h2.page-title {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc; }
 
-/* line 126, ../sass/base.scss */
+/* line 128, ../sass/base.scss */
 h3 {
   font-size: 1.325em;
   margin: 2em 0; }
 
-/* line 131, ../sass/base.scss */
+/* line 133, ../sass/base.scss */
 h4 {
   font-size: 1.3em;
   font-weight: 700;
   margin: 1em 0; }
-  /* line 136, ../sass/base.scss */
+  /* line 138, ../sass/base.scss */
   h4 a {
     color: #2EBDB2; }
 
-/* line 141, ../sass/base.scss */
+/* line 143, ../sass/base.scss */
 .info {
   border-top: 3px solid rgba(0, 0, 0, 0.09);
   padding-top: 2em;
   float: left;
   font-size: .88em; }
 
-/* line 149, ../sass/base.scss */
+/* line 151, ../sass/base.scss */
 a {
   text-decoration: none;
   color: #333; }
 
-/* line 154, ../sass/base.scss */
+/* line 156, ../sass/base.scss */
 .updates {
   max-width: 100%;
   margin-left: auto;
@@ -721,14 +723,14 @@ a {
     content: "";
     display: table; }
 
-/* line 159, ../sass/base.scss */
+/* line 161, ../sass/base.scss */
 .col-1 {
   margin: 0 0 3em 0; }
-  /* line 162, ../sass/base.scss */
+  /* line 164, ../sass/base.scss */
   .col-1 a {
     border-bottom: solid 4px #2EBDB2; }
 
-/* line 169, ../sass/base.scss */
+/* line 171, ../sass/base.scss */
 .blog {
   max-width: 100%;
   margin-left: auto;
@@ -738,7 +740,7 @@ a {
     clear: both;
     content: "";
     display: table; }
-  /* line 172, ../sass/base.scss */
+  /* line 174, ../sass/base.scss */
   .blog article {
     float: left;
     display: block;
@@ -747,26 +749,26 @@ a {
     /* line 87, ../sass/neat/grid/_span-columns.scss */
     .blog article:last-child {
       margin-right: 0; }
-  /* line 175, ../sass/base.scss */
+  /* line 177, ../sass/base.scss */
   .blog h1 {
     padding: 0; }
 
-/* line 180, ../sass/base.scss */
+/* line 182, ../sass/base.scss */
 .article-post {
   margin: 0; }
-  /* line 182, ../sass/base.scss */
+  /* line 184, ../sass/base.scss */
   .article-post p {
     margin: 0 0 1em 0;
     display: block; }
-  /* line 187, ../sass/base.scss */
+  /* line 189, ../sass/base.scss */
   .article-post h2 {
     font-size: 1.5em;
     margin: 1em 0 0em;
     line-height: 1.5em; }
-  /* line 194, ../sass/base.scss */
+  /* line 196, ../sass/base.scss */
   .article-post p {
     margin: 0 0 1em 0; }
-  /* line 197, ../sass/base.scss */
+  /* line 199, ../sass/base.scss */
   .article-post ul {
     max-width: 100%;
     margin-left: auto;
@@ -776,18 +778,18 @@ a {
       clear: both;
       content: "";
       display: table; }
-    /* line 200, ../sass/base.scss */
+    /* line 202, ../sass/base.scss */
     .article-post ul li {
       margin: 0; }
 
-/* line 207, ../sass/base.scss */
+/* line 209, ../sass/base.scss */
 h2.article-title {
   font-size: 2.5em;
   font-weight: 300;
   margin: 1.7em 0 0em;
   line-height: 1.5em; }
 
-/* line 215, ../sass/base.scss */
+/* line 217, ../sass/base.scss */
 p {
   font-size: 1.1em;
   line-height: 2.2em;
@@ -795,12 +797,12 @@ p {
   font-weight: 300;
   padding: 0 3em; }
 
-/* line 223, ../sass/base.scss */
+/* line 225, ../sass/base.scss */
 img {
   max-width: 100%;
   vertical-align: middle; }
 
-/* line 228, ../sass/base.scss */
+/* line 230, ../sass/base.scss */
 figure img {
   max-width: 100%;
   animation: fadein 1s;
@@ -811,7 +813,7 @@ figure img {
   -o-animation: fadein 1s;
   /* Opera */ }
 
-/* line 235, ../sass/base.scss */
+/* line 237, ../sass/base.scss */
 a:hover {
   color: #ccc;
   -moz-transition: all .5s ease-out;
@@ -819,18 +821,18 @@ a:hover {
   -webkit-transition: all .5s ease-out;
   transition: all .5s ease-out; }
 
-/* line 245, ../sass/base.scss */
+/* line 247, ../sass/base.scss */
 .index-nav {
   margin: 0 auto 1em auto;
   max-width: 100%; }
-  /* line 249, ../sass/base.scss */
+  /* line 251, ../sass/base.scss */
   .index-nav li.next {
     margin: 0.5em auto;
     text-align: right;
     top: 40%;
     line-height: 2em;
     padding: 1em 0 0; }
-  /* line 258, ../sass/base.scss */
+  /* line 260, ../sass/base.scss */
   .index-nav li.previous {
     margin: 0.5em auto;
     text-align: left;
@@ -839,16 +841,16 @@ a:hover {
     padding: 1em 0 0; }
 
 @media screen and (max-width: 700px) {
-  /* line 275, ../sass/base.scss */
+  /* line 277, ../sass/base.scss */
   .container {
     padding: 0 1.55555em; }
 
-  /* line 281, ../sass/base.scss */
+  /* line 283, ../sass/base.scss */
   h2.article-title {
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center; }
 
-  /* line 288, ../sass/base.scss */
+  /* line 290, ../sass/base.scss */
   li.next {
     float: none; } }
