@@ -230,7 +230,7 @@ a.test-popup-link span {
 /* line 139, ../sass/modules/_global-styles.scss */
 .overlay ul li p {
   font-size: 19px;
-  line-height: 29px;
+  line-height: 32px;
 }
 /* line 145, ../sass/modules/_global-styles.scss */
 .overlay ul li {
@@ -761,7 +761,7 @@ ul.post li {
 /* line 74, ../sass/base.scss */
 ul.post li a {
   color: white;
-  font-size: 3.3em;
+  font-size: 3.03em;
   line-height: 1.52em;
   text-decoration: none;
   font-family: "Kotta One", serif;
