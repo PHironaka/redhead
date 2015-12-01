@@ -76,15 +76,15 @@ html {
   display: table-cell;
   vertical-align: middle; }
 
-/* line 11, ../sass/modules/_global-styles.scss */
+/* line 12, ../sass/modules/_global-styles.scss */
 .mission {
   display: table;
   width: 200%;
   margin-top: 15%; }
-  /* line 16, ../sass/modules/_global-styles.scss */
+  /* line 17, ../sass/modules/_global-styles.scss */
   .mission a {
     margin: 0; }
-  /* line 19, ../sass/modules/_global-styles.scss */
+  /* line 20, ../sass/modules/_global-styles.scss */
   .mission img {
     max-width: 600px;
     height: 197px;
@@ -92,21 +92,21 @@ html {
     margin: 0;
     float: left; }
 
-/* line 28, ../sass/modules/_global-styles.scss */
+/* line 29, ../sass/modules/_global-styles.scss */
 .video-post {
   display: inline-table;
   width: 49%;
   float: left;
   margin: 2px; }
 
-/* line 35, ../sass/modules/_global-styles.scss */
+/* line 36, ../sass/modules/_global-styles.scss */
 a.test-popup-link span {
   font-size: 16px;
   vertical-align: text-top;
   margin: 12px;
   line-height: 36px; }
 
-/* line 42, ../sass/modules/_global-styles.scss */
+/* line 43, ../sass/modules/_global-styles.scss */
 .button_container {
   position: relative;
   top: 0%;
@@ -116,22 +116,22 @@ a.test-popup-link span {
   z-index: 100;
   transition: opacity .25s ease;
   margin: 2em 0 6em 0; }
-  /* line 53, ../sass/modules/_global-styles.scss */
+  /* line 54, ../sass/modules/_global-styles.scss */
   .button_container:hover {
     opacity: .7; }
-  /* line 58, ../sass/modules/_global-styles.scss */
+  /* line 59, ../sass/modules/_global-styles.scss */
   .button_container.active .top {
     transform: translateY(10px) translateX(0) rotate(45deg);
     background: #FFF; }
-  /* line 62, ../sass/modules/_global-styles.scss */
+  /* line 63, ../sass/modules/_global-styles.scss */
   .button_container.active .middle {
     opacity: 0;
     background: #FFF; }
-  /* line 67, ../sass/modules/_global-styles.scss */
+  /* line 68, ../sass/modules/_global-styles.scss */
   .button_container.active .bottom {
     transform: translateY(-10px) translateX(0) rotate(-45deg);
     background: #FFF; }
-  /* line 73, ../sass/modules/_global-styles.scss */
+  /* line 74, ../sass/modules/_global-styles.scss */
   .button_container span {
     background: white;
     border: none;
@@ -142,14 +142,14 @@ a.test-popup-link span {
     left: 0;
     transition: all .35s ease;
     cursor: pointer; }
-    /* line 84, ../sass/modules/_global-styles.scss */
+    /* line 85, ../sass/modules/_global-styles.scss */
     .button_container span:nth-of-type(2) {
       top: 10px; }
-    /* line 88, ../sass/modules/_global-styles.scss */
+    /* line 89, ../sass/modules/_global-styles.scss */
     .button_container span:nth-of-type(3) {
       top: 20px; }
 
-/* line 94, ../sass/modules/_global-styles.scss */
+/* line 95, ../sass/modules/_global-styles.scss */
 .overlay {
   position: fixed;
   background: #000;
@@ -162,29 +162,29 @@ a.test-popup-link span {
   transition: opacity .35s, visibility .35s, height .35s;
   overflow: hidden;
   z-index: 10; }
-  /* line 107, ../sass/modules/_global-styles.scss */
+  /* line 108, ../sass/modules/_global-styles.scss */
   .overlay.open {
     opacity: .9;
     visibility: visible;
     height: 100%; }
-    /* line 112, ../sass/modules/_global-styles.scss */
+    /* line 113, ../sass/modules/_global-styles.scss */
     .overlay.open li {
       animation: fadeInRight .5s ease forwards;
       animation-delay: .35s; }
-      /* line 116, ../sass/modules/_global-styles.scss */
+      /* line 117, ../sass/modules/_global-styles.scss */
       .overlay.open li:nth-of-type(2) {
         animation-delay: .4s; }
-      /* line 119, ../sass/modules/_global-styles.scss */
+      /* line 120, ../sass/modules/_global-styles.scss */
       .overlay.open li:nth-of-type(3) {
         animation-delay: .45s; }
-      /* line 122, ../sass/modules/_global-styles.scss */
+      /* line 123, ../sass/modules/_global-styles.scss */
       .overlay.open li:nth-of-type(4) {
         animation-delay: .50s; }
-  /* line 127, ../sass/modules/_global-styles.scss */
+  /* line 128, ../sass/modules/_global-styles.scss */
   .overlay nav {
     margin-top: 5em;
     text-align: center; }
-  /* line 131, ../sass/modules/_global-styles.scss */
+  /* line 132, ../sass/modules/_global-styles.scss */
   .overlay ul {
     list-style: none;
     padding: 0;
@@ -192,11 +192,11 @@ a.test-popup-link span {
     position: relative;
     height: 100%;
     width: 800px; }
-    /* line 139, ../sass/modules/_global-styles.scss */
+    /* line 140, ../sass/modules/_global-styles.scss */
     .overlay ul li p {
       font-size: 19px;
       line-height: 32px; }
-    /* line 145, ../sass/modules/_global-styles.scss */
+    /* line 146, ../sass/modules/_global-styles.scss */
     .overlay ul li {
       display: block;
       height: 25%;
@@ -205,12 +205,12 @@ a.test-popup-link span {
       position: relative;
       opacity: 0;
       margin: 20px; }
-      /* line 154, ../sass/modules/_global-styles.scss */
+      /* line 155, ../sass/modules/_global-styles.scss */
       .overlay ul li a {
         position: relative;
         color: #FFF;
         text-decoration: none; }
-        /* line 159, ../sass/modules/_global-styles.scss */
+        /* line 160, ../sass/modules/_global-styles.scss */
         .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
           width: 100%; }
 
@@ -222,7 +222,7 @@ a.test-popup-link span {
     opacity: 1;
     left: 0; } }
 @media screen and (max-width: 700px) {
-  /* line 190, ../sass/modules/_global-styles.scss */
+  /* line 191, ../sass/modules/_global-styles.scss */
   .mission {
     max-width: 30.875em;
     margin-left: auto;
@@ -232,7 +232,7 @@ a.test-popup-link span {
     position: relative;
     padding: 0 1.55555em;
     overflow: hidden; }
-    /* line 200, ../sass/modules/_global-styles.scss */
+    /* line 201, ../sass/modules/_global-styles.scss */
     .mission img {
       height: auto;
       max-width: 100%; } }
