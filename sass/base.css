@@ -183,7 +183,7 @@ a.test-popup-link span {
   /* line 128, ../sass/modules/_global-styles.scss */
   .overlay nav {
     margin-top: 5em;
-    text-align: center; }
+    text-align: left; }
   /* line 132, ../sass/modules/_global-styles.scss */
   .overlay ul {
     list-style: none;
@@ -194,8 +194,8 @@ a.test-popup-link span {
     width: 800px; }
     /* line 140, ../sass/modules/_global-styles.scss */
     .overlay ul li p {
-      font-size: 19px;
-      line-height: 32px; }
+      font-size: 15px;
+      line-height: 19px; }
     /* line 146, ../sass/modules/_global-styles.scss */
     .overlay ul li {
       display: block;
@@ -266,12 +266,13 @@ header {
 
 /* line 28, ../sass/modules/_header.scss */
 h1 {
-  font-size: 24px;
+  font-size: 16px;
   color: white;
   margin: 30px 0;
-  line-height: 35px; }
+  line-height: 35px;
+  font-family: 'PT Sans', sans-serif; }
 
-/* line 35, ../sass/modules/_header.scss */
+/* line 36, ../sass/modules/_header.scss */
 .tv-bg {
   width: 100%;
   height: 100%;
@@ -281,27 +282,27 @@ h1 {
   z-index: 10;
   opacity: .6; }
 
-/* line 45, ../sass/modules/_header.scss */
+/* line 46, ../sass/modules/_header.scss */
 h1.about {
   font-size: 2.6em;
   line-height: 1.7em;
   font-weight: 300;
   padding: 2em 0 1em; }
 
-/* line 53, ../sass/modules/_header.scss */
+/* line 54, ../sass/modules/_header.scss */
 ul.menu {
   margin: 0 auto 2em auto;
   height: 100%;
   overflow: hidden;
   text-align: left;
   max-width: 100%; }
-  /* line 59, ../sass/modules/_header.scss */
+  /* line 60, ../sass/modules/_header.scss */
   ul.menu li {
     display: inline-block;
     margin: 15px 4em 0 0;
     font-size: 1.1em; }
 
-/* line 69, ../sass/modules/_header.scss */
+/* line 70, ../sass/modules/_header.scss */
 .logo {
   float: right;
   display: block;
@@ -310,21 +311,21 @@ ul.menu {
   font-weight: 700; }
 
 @media screen and (max-width: 700px) {
-  /* line 88, ../sass/modules/_header.scss */
+  /* line 89, ../sass/modules/_header.scss */
   header h1 {
     font-size: 1.167em; }
 
-  /* line 95, ../sass/modules/_header.scss */
+  /* line 96, ../sass/modules/_header.scss */
   h1.home {
     font-size: 1.4em;
     text-align: center; }
 
-  /* line 100, ../sass/modules/_header.scss */
+  /* line 101, ../sass/modules/_header.scss */
   h1.about {
     font-size: 1.4em;
     text-align: center; }
 
-  /* line 105, ../sass/modules/_header.scss */
+  /* line 106, ../sass/modules/_header.scss */
   .logo {
     float: none;
     text-align: center;
@@ -332,18 +333,18 @@ ul.menu {
     margin: 1em 0;
     font-size: 1.3em; }
 
-  /* line 113, ../sass/modules/_header.scss */
+  /* line 114, ../sass/modules/_header.scss */
   ul.menu {
     margin: 1em 0;
     text-align: center; }
-    /* line 116, ../sass/modules/_header.scss */
+    /* line 117, ../sass/modules/_header.scss */
     ul.menu li {
       margin: 0 1em; }
 
-  /* line 121, ../sass/modules/_header.scss */
+  /* line 122, ../sass/modules/_header.scss */
   ul {
     max-width: 16.875rem; }
-    /* line 124, ../sass/modules/_header.scss */
+    /* line 125, ../sass/modules/_header.scss */
     ul li {
       margin: 0 1em; } }
 /*! Swipebox v1.3.0 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
@@ -650,7 +651,7 @@ ul.post {
     /* line 81, ../sass/base.scss */
     ul.post li a {
       color: white;
-      font-size: 3.03em;
+      font-size: 2.73em;
       line-height: 1.52em;
       text-decoration: none;
       font-family: "Kotta One", serif; }
@@ -828,8 +829,8 @@ h2.article-title {
 p {
   font-size: 1.1em;
   line-height: 2.2em;
-  font-weight: 300;
-  padding: 0 3em; }
+  padding: 0;
+  font-family: 'PT Sans', sans-serif; }
 
 /* line 260, ../sass/base.scss */
 img {
