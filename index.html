@@ -20,7 +20,7 @@
 
 
     </video>
-<section class=container>
+<section class=container id="holder">
 <div class=button_container id=toggle>
   <span class=top></span>
   <span class=middle></span>
@@ -32,6 +32,13 @@
 <ul>
 
 <li><h1>Oh what a wonderful day. If you want to get in contact about work, here are the people who look after me.</h1></li>
+<li>  <p>United States of America -- Arts & Sciences  </p> <p>Mal Ward | <a href="mailto:mal@artsandsciences.com">mal@artsandsciences.com</a></p> <p>Marc Marrie |  <a href="mailto:marc@artsandsciences.com"> marc@artsandsciences.com</a></p><p><a href="http://artsandsciences.com" target="_blank">http://artsandsciences.com</a></p>
+</li>
+  <li>
+    <p>United Kingdom -- Riff Raff Films </p> <p>Matthew Fone| <a href="mailto:matthew@riffraffilms.tv"> matthew@riffraffilms.tv</a></p><p>Barney Richard| <a href="mailto:barney@riffrafffilms.tv"> barney@riffrafffilms.tv</a></p><p><a href="http://riffrafffilms.tv" target="_blank">http://riffrafffilms.tv</a></p>
+</li>
+
+
   <li>
     <p>France -- Soldats </p> <p>Pierre |<a href="mailto:pierre@soldats.tv">  pierre@soldats.tv </a></p> <p><a href="http://soldats.tv" target="_blank">http://soldats.tv</a></p>
   </li>
@@ -40,11 +47,6 @@
     <p>Film & TV -- WME </p> <p>Solco Schuit |<a href="mailto:sschuit@wmeentertainment.com">  sschuit@wmeentertainment.com </a></p> <p><a href="http://wmeentertainment.com" target="_blank">http://wmeentertainment.com</a></p>
   </li>
 
-<li>  <p>United States of America -- Arts & Sciences  </p> <p>Mal Ward | <a href="mailto:mal@artsandsciences.com">mal@artsandsciences.com</a></p> <p>Marc Marrie |  <a href="mailto:marc@artsandsciences.com"> marc@artsandsciences.com</a></p><p><a href="http://artsandsciences.com" target="_blank">http://artsandsciences.com</a></p>
-</li>
-  <li>
-    <p>United Kingdom -- Riff Raff Films </p> <p>Matthew Fone| <a href="mailto:matthew@riffraffilms.tv"> matthew@riffraffilms.tv</a></p><p>Barney Richard| <a href="mailto:barney@riffrafffilms.tv"> barney@riffrafffilms.tv</a></p><p><a href="http://riffrafffilms.tv" target="_blank">http://riffrafffilms.tv</a></p>
-</li>
 
 </ul>
 </nav>
@@ -54,16 +56,16 @@
 
 
 	<ul class="post">
-		<li>	<a class="test-popup-link hvr-underline-from-left " rel="vimeo" href="https://vimeo.com/101596394">Sam Smith - Not The Only One</a><span>2015</span></li>
+		<li>	<a class="test-popup-link hvr-underline-from-left " rel="vimeo" href="https://vimeo.com/101596394">Sam Smith 'Not The Only One'</a><span>2015</span></li>
 		<li>	<a class="test-popup-link hvr-underline-from-left " rel="vimeo" href="https://vimeo.com/91586954">Baby Gangster</a><span>2014</span></li>
-		<li>		<a class="test-popup-link hvr-underline-from-left " rel="vimeo" href="https://vimeo.com/60021080">Disclosure - White Noise</a><span>2013</span></li>
-		<li>	<a class="test-popup-link hvr-underline-from-left " rel="vimeo" href="https://www.youtube.com/watch?v=8jzDnsjYv9A">Sam Smith - Writings On The Wall</a><span>2015</span></li>
+		<li>		<a class="test-popup-link hvr-underline-from-left " rel="vimeo" href="https://vimeo.com/60021080">Disclosure 'White Noise'</a><span>2013</span></li>
+		<li>	<a class="test-popup-link hvr-underline-from-left " rel="vimeo" href="https://vimeo.com/146643895">Sam Smith 'Writings On The Wall'</a><span>2015</span></li>
 		<li>
-		<a class="test-popup-link hvr-underline-from-left" rel="vimeo" href="https://vimeo.com/140810304"> Beats - Rugby World Cup</a><span>2015</span></li>
+		<a class="test-popup-link hvr-underline-from-left" rel="vimeo" href="https://vimeo.com/140810304"> Beats 'Rugby World Cup'</a><span>2015</span></li>
 
   <li>	<a class="test-popup-link hvr-underline-from-left " rel="vimeo" href="https://vimeo.com/72095478"> Ezekiel</a><span>2013</span></li>
-<li>		<a class="test-popup-link hvr-underline-from-left " rel="vimeo" href="https://vimeo.com/140901299"> Wilson - Connected X</a><span>2015</span></li>
-<li>		<a class="test-popup-link hvr-underline-from-left " rel="vimeo" href="https://vimeo.com/64828553"> Disclosure - You & Me</a><span>2013</span></li>
+<li>		<a class="test-popup-link hvr-underline-from-left " rel="vimeo" href="https://vimeo.com/140901299"> Wilson 'Connected X'</a><span>2015</span></li>
+<li>		<a class="test-popup-link hvr-underline-from-left " rel="vimeo" href="https://vimeo.com/64828553"> Disclosure 'You & Me'</a><span>2013</span></li>
 
 </ul>
 </section>
@@ -88,6 +90,19 @@ $('.test-popup-link').magnificPopup({
   });
 	</script>
 
+  <script type="text/javascript">
+
+      function stuffForResizeAndReady(){
+          $('#holder').css({'height': ($(window).height()), 'width': ($(window).width()) });
+          $('#patt').css({'height': ($(window).height()), 'width': ($(window).width()) });
+          $('#contentArea').css({'min-height': ($(window).height() - 60) });
+
+      }
+      $(window).on("resize", stuffForResizeAndReady);
+      $(document).on("ready", stuffForResizeAndReady);
+
+  </script>
+  
    </body>
 </html>
 
